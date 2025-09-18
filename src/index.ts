@@ -88,7 +88,7 @@ Return only the commit message, nothing else.`;
       messages: [
         {
           role: 'system',
-          content: SYSTEM_PROMPT,
+          content: SYSTEM_PROMPT, //using the system prompt from the systemPrompt.ts file
         },
         {
           role: 'user',
