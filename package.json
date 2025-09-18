@@ -1,0 +1,43 @@
+{
+  "name": "fastaf",
+  "version": "1.0.0",
+  "description": "A CLI tool that performs git add, commit with AI-generated messages, and push in one command",
+  "main": "dist/index.js",
+  "bin": {
+    "fastaf": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "git",
+    "cli",
+    "automation",
+    "commit",
+    "ai",
+    "openai"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "openai": "^4.20.1",
+    "simple-git": "^3.20.0",
+    "chalk": "^4.1.2",
+    "ora": "^5.4.1",
+    "dotenv": "^16.3.1",
+    "inquirer": "^9.2.12"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.10",
+    "typescript": "^5.2.2",
+    "ts-node": "^10.9.1",
+    "@types/inquirer": "^9.0.7"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
