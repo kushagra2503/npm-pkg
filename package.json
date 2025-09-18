@@ -1,5 +1,5 @@
 {
-  "name": "fastaf",
+  "name": "fastaf-cli",
   "version": "1.0.0",
   "description": "A CLI tool that performs git add, commit with AI-generated messages, and push in one command",
   "main": "dist/index.js",

@@ -15,13 +15,13 @@ A CLI tool that performs `git add .`, `git commit` with AI-generated commit mess
 ### Global Installation (Recommended)
 
 ```bash
-npm install -g fastaf
+npm install -g fastaf-cli
 ```
 
 ### Local Installation
 
 ```bash
-npm install fastaf
+npm install fastaf-cli
 npx fastaf --all
 ```
 
