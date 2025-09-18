@@ -99,7 +99,7 @@ Return only the commit message, nothing else.`;
       temperature: 0.7,
     });
 
-    spinner.succeed('AI commit message generated');
+    spinner.succeed('Fastaf generated commit message for you');
     
     const commitMessage = response.choices[0]?.message?.content?.trim();
     if (!commitMessage) {
